@@ -1,4 +1,13 @@
-Asset Directory for Aashna Gupta Portfolio.
-Place:
-- profile.jpg (from Desktop\AASHNA GUPTA . PIC.jpeg)
-- Aashna_Gupta_Resume.pdf (from Desktop\Updated CV.pdf)
+Asset Directory for Aashna Gupta Portfolio:
+------------------------------------------------
+1. profile.jpg
+   -> Copy from: Desktop\AASHNA GUPTA . PIC.jpeg
+   -> Rename to: profile.jpg
+
+2. Aashna_Gupta_Resume.pdf
+   -> Copy from: Desktop\Updated CV.pdf
+   -> Rename to: Aashna_Gupta_Resume.pdf
+
+3. ITC_Corporate_Valuation_Model.xlsx
+   -> Copy from: Desktop\Project\ITC VALUATION FILE\ITC_DCF_Model_Consolidated_Rebuilt.xlsx
+   -> Rename to: ITC_Corporate_Valuation_Model.xlsx

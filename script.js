@@ -279,6 +279,48 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // ==========================================================================
+  // Excel Spreadsheet Multi-Tab Controller
+  // ==========================================================================
+  const excelFormulas = {
+    dcf: 'Cell E26: =E24/(1+$B$14)^E25 (Present Value of Explicit FCFF)',
+    cca: 'Cell E4: =AVERAGE(E5:E9) (Peer Median EV/EBITDA Multiple Benchmark)',
+    statements: 'Cell B28: =B24-B25-B26 (Operating Free Cash Flow Integration)',
+    altman: 'Cell E15: =1.2*B10+1.4*B11+3.3*B12+0.6*B13+0.999*B14 (Composite Z-Score: 4.82 Safe)'
+  };
+
+  window.switchExcelTab = function(tabKey) {
+    // Hide all panels
+    document.querySelectorAll('.excel-tab-panel').forEach(panel => {
+      panel.classList.add('hidden');
+    });
+
+    // Reset all tab button styles
+    document.querySelectorAll('.excel-tab-btn').forEach(btn => {
+      btn.classList.remove('border-emerald-500/40', 'bg-[#0F172A]', 'text-emerald-300');
+      btn.classList.add('border-transparent', 'text-slate-400');
+    });
+
+    // Show selected panel
+    const selectedPanel = document.getElementById(`excel-panel-${tabKey}`);
+    if (selectedPanel) {
+      selectedPanel.classList.remove('hidden');
+    }
+
+    // Activate selected button
+    const selectedBtn = document.getElementById(`excel-tab-${tabKey}`);
+    if (selectedBtn) {
+      selectedBtn.classList.remove('border-transparent', 'text-slate-400');
+      selectedBtn.classList.add('border-emerald-500/40', 'bg-[#0F172A]', 'text-emerald-300');
+    }
+
+    // Update formula bar text
+    const formulaDisplay = document.getElementById('excel-formula-display');
+    if (formulaDisplay && excelFormulas[tabKey]) {
+      formulaDisplay.textContent = excelFormulas[tabKey];
+    }
+  };
+
   // Contact Form Auto-Mailto Trigger
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {

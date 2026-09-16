@@ -30,9 +30,10 @@ GitHub Pages provides **100% free hosting forever** with an SSL certificate (`ht
 
 ### 📋 Prerequisites (Quick 1-time setup)
 1. If you don't already have one, create a free account at [github.com](https://github.com/).
-2. Copy your photo and CV into the `assets` folder:
+2. Copy your assets into the `portfolio\assets\` folder:
    - Copy `AASHNA GUPTA . PIC.jpeg` from your Desktop into `Desktop\Project\portfolio\assets\` and name it `profile.jpg`.
    - Copy `Updated CV.pdf` from your Desktop into `Desktop\Project\portfolio\assets\` and name it `Aashna_Gupta_Resume.pdf`.
+   - Copy `ITC_DCF_Model_Consolidated_Rebuilt.xlsx` from `Desktop\Project\ITC VALUATION FILE\` into `Desktop\Project\portfolio\assets\` and name it `ITC_Corporate_Valuation_Model.xlsx`.
 
 ---
 
