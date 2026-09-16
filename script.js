@@ -321,21 +321,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Contact Form Auto-Mailto Trigger
-  const contactForm = document.getElementById('contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const name = document.getElementById('form-name').value;
-      const email = document.getElementById('form-email').value;
-      const subject = document.getElementById('form-subject').value || 'Opportunity / Discussion';
-      const message = document.getElementById('form-message').value;
 
-      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${encodeURIComponent(message)}`;
-      const mailtoUrl = `mailto:aashna1414@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
-
-      window.location.href = mailtoUrl;
-      window.showToast('Launching email client with your message...');
-    });
-  }
 });
