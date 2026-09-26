@@ -1,23 +1,16 @@
-# Aashna Gupta — Executive MBA Finance Portfolio Website
-**Candidate for MBA in Finance** | **Great Lakes Institute of Management, Gurgaon**  
-**Specializations**: Corporate Valuation (DCF & CCA), Financial Modeling, FinTech Product Strategy, Data Visualization.
+# Aashna Gupta — Executive MBA Portfolio Website
+**MBA Professional** | **Great Lakes Institute of Management, Gurgaon**  
+**Specializations**: FinTech Product Strategy, SaaS Platforms, Data Visualization, Financial Analysis.
 
 ---
 
 ## 🌐 Live Project Showcase Included
 
-1. **ITC Limited — Corporate Valuation & 3-Statement Financial Modeling**
-   - Academic Capstone Project (MBA Finance)
-   - 5-Year DCF (FCFF) Model, WACC (11.20%), Gordon Terminal Growth
-   - Comparable Companies Analysis (CCA) against Indian FMCG peers (HUL, Dabur, Marico, Nestle)
-   - Altman Z-Score Solvency Analysis (4.82 — Safe Zone) & DuPont ROE Decomposition
-   - Interactive on-page scenario switcher (Base Case, Bull Case, Bear Case) with dynamic Chart.js visualizations.
-
-2. **PharmaChain — Blockchain SaaS Dashboard Design**
+1. **PharmaChain — Blockchain SaaS Dashboard Design**
    - Live URL: [https://coruscating-sunburst-2bc4e5.netlify.app/](https://coruscating-sunburst-2bc4e5.netlify.app/)
    - Enterprise pharmaceutical supply chain telemetry, DSCSA & EU FMD compliance, serialization & cold-chain monitoring.
 
-3. **CredFlow — Digital Lending & Risk Engine**
+2. **CredFlow — Digital Lending & Risk Engine**
    - Live URL: [https://credflow-digital-lending.ai.studio/](https://credflow-digital-lending.ai.studio/)
    - *"From urgent need to instant credit — securely, digitally, responsibly."*
    - Automated underwriting, instant origination workflow, and risk metrics.
@@ -33,7 +26,6 @@ GitHub Pages provides **100% free hosting forever** with an SSL certificate (`ht
 2. Copy your assets into the `portfolio\assets\` folder:
    - Copy `AASHNA GUPTA . PIC.jpeg` from your Desktop into `Desktop\Project\portfolio\assets\` and name it `profile.jpg`.
    - Copy `Updated CV.pdf` from your Desktop into `Desktop\Project\portfolio\assets\` and name it `Aashna_Gupta_Resume.pdf`.
-   - Copy `ITC_DCF_Model_Consolidated_Rebuilt.xlsx` from `Desktop\Project\ITC VALUATION FILE\` into `Desktop\Project\portfolio\assets\` and name it `ITC_Corporate_Valuation_Model.xlsx`.
 
 ---
 
